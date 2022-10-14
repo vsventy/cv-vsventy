@@ -21,7 +21,7 @@
 %----------------------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{developercv}[2019/01/28 Developer CV class v1.0]
+\ProvidesClass{developercv}[2022/10/14 Developer CV class v1.1]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}} % Pass through any options to the base class
 \ProcessOptions\relax % Process given options
@@ -51,7 +51,7 @@
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size
 	top=1.5cm, % Top margin
-	bottom=1.5cm, % Bottom margin
+	bottom=1cm, % Bottom margin
 	left=2cm, % Left margin
 	right=2cm, % Right margin
 	headheight=0.75cm, % Header height
